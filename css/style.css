@@ -51,7 +51,7 @@ border-radius: 8px; background: #fff; text-indent: 30px; overflow: hidden;}
 #ccm .wrap article {float: left; margin-right: 50px;}
 
 #ccm .wrap article a img {transition: 0.3s;}
-#ccm .wrap article a img:hover, #ccm .wrap article a img:focus
+#ccm .wrap article a img:hover
 {transform: scale(1.14);}
 #ccm .wrap article .ov {width: 300px; height: 180px; overflow: hidden;}
 
@@ -72,7 +72,7 @@ box-sizing: border-box; height: 68px; font-weight: 600;}
 #ptnw .wrap .ptfo h3 {padding-bottom: 0; position: relative; z-index: 80;}
 #ptnw .wrap .ptfo a img {position: relative; left: 0; top: -14px; float: left;
 transition: 0.3s;}
-#ptnw .wrap .ptfo a img:hover, #ptnw .wrap .ptfo a img:focus
+#ptnw .wrap .ptfo a img:hover
 {transform: scale(1.1);}
 #ptnw .ptfo {overflow: hidden;}
 
