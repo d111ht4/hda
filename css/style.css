@@ -1,0 +1,103 @@
+* {margin: 0; padding: 0;}
+a {color:inherit; text-decoration: none;}
+li {list-style: none;}
+img {vertical-align: top;}
+
+.wrap:after, ul:after, .cl:after, article:after 
+{content: ""; clear: both; display: block;}
+body {font-family: 'SUIT Variable', sans-serif;}
+
+.wrap {width: 1000px; margin: 0 auto; position: relative;}
+.blind {width: 0; height: 0; font-size: 0; position: absolute;
+left: -9999px; overflow: hidden;}
+
+header {background: #fff; width: 100%; position: fixed;
+box-shadow: 0 2px 5px rgba(0,0,0,0.5); z-index: 99;}
+header h1 {height: 160px; display: flex; align-items: center;
+justify-content: left;}
+
+header .gnb {position: absolute; right: 0; top: 100px;}
+header .gnb li {float: left; margin-left: 55px;}
+header .gnb li a:link, header .gnb li a:visited 
+{color: #000; font-size: 16px; font-weight: 900;}
+header .gnb li a:hover, header .gnb li a:active, header .gnb li a:focus
+{color:#f00;}
+
+header .snb {position: absolute; top: 34px; right: 0;}
+header .snb li {font: 14px; float: left; margin-left: 25px;}
+
+.blank {height: 160px;}
+
+#main {background: #eee;}
+#main .wrap img {position: relative; right: 60px;}
+#main .wrap article {position: absolute; left: 0; top: 118px; }
+#main .wrap article p:first-child { font-size: 18px; font-weight: bold;
+    padding-bottom: 22px;}
+#main .wrap article h3 {font-size: 44px; font-weight: 700;}
+#main .wrap article p:last-child {font-size: 14px; padding-top: 48px;
+font-weight: 500; line-height: 1.6;}
+
+#main .wrap ul {position: absolute; left: 0; width: 100%; display: flex;
+justify-content: center; bottom: 30px;}
+#main .wrap ul li {margin: 0 15px; float: left;}
+#main .wrap ul li a {display:block; width: 8px; height: 8px; 
+border-radius: 8px; background: #fff; text-indent: 30px; overflow: hidden;}
+#main .wrap ul li.select a {background: #000;}
+
+#ccm .wrap {width: 1000px;}
+#ccm .wrap h2 {font-size: 15px; font-weight: 900; padding-top: 46px; padding-bottom: 25px;}
+#ccm .wrap article {float: left; margin-right: 50px;}
+#ccm .wrap article:last-child {margin-right: 0;}
+#ccm .wrap article h3 {font-size: 14px; font-weight: 800;
+padding-top: 29px; padding-bottom: 17px;}
+#ccm .wrap article p {font-size: 13px; padding-bottom: 26px;
+border-bottom: 3px solid #000; color: #777; line-height: 1.6;
+box-sizing: border-box; height: 68px; font-weight: 600;}
+
+#ptnw {padding-top: 56px; height: 252px;}
+#ptnw .wrap {width: 1000px;}
+#ptnw .wrap h3 {font-size: 15px; font-weight: 900; 
+    padding-bottom: 25px;}
+#ptnw .wrap article {float: left;}
+
+#ptnw .wrap .ptfo h3 {padding-bottom: 0; position: relative; z-index: 80;}
+#ptnw .wrap .ptfo a img {position: relative; left: 0; top: -14px; float: left;}
+
+#ptnw .wrap .news { margin-left: 50px; border-bottom: 1px solid #000; box-sizing: border-box; width: 300px; height: 198px;}
+#ptnw .wrap .news a {font-size: 13px;  color: #777; font-weight: 600;}
+
+#ptnw .wrap .news a:last-child { padding-top: 12px; width: 240px;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+display: block;}
+
+#cal {height: 208px;}
+#cal .wrap {width: 1000px;}
+#cal .wrap article {float: left; width: 300px; margin-right: 50px;  
+    height: 150px; box-sizing: border-box; 
+    border-bottom: 1px solid #e6e6e6;}
+#cal .wrap .lt {margin-right: 0;}
+#cal .wrap article h3 {font-size: 15px; font-weight: 900; 
+    padding-bottom: 26px;}
+#cal .wrap article p {font-size: 13px; color: #777; font-weight: 600;
+    line-height: 1.6; padding-bottom: 18px;}
+#cal .wrap article a {font-size: 14px; text-decoration: underline; 
+    color: #1d1d1d; font-weight: bold;}
+
+footer {height: 165px; background: #000;  padding-top: 46px;
+box-sizing: border-box;}
+footer .wrap .site { padding-bottom: 24px;}
+footer .wrap .site li {float: left; font-size: 13px; color: #b4b4b4;}
+footer .wrap .site li:after {content: "|"; margin: 0 15px; 
+    color: #464646;}
+footer .wrap .site li:last-child:after {display: none;}
+
+footer .wrap address p {float: left; font-size: 12px; font-style: normal;
+    color: #7a7a7a; line-height: 1.6;}
+footer .wrap address p:after {content: "|"; margin: 0 6px;}
+footer .wrap address p:nth-child(2):after, footer .wrap address         p:last-child:after {display: none;}
+footer .wrap address p:nth-child(2) {width: 600px;}
+
+footer .wrap .sns {position: absolute; right: 0; top: 0;}
+footer .wrap .sns li a {color: #fff; font-size: 12px; font-weight: 700;
+    line-height: 2.2; text-align: right; display: block;}
+
